@@ -5,6 +5,20 @@ Have a look at the game projects I did during my studies.
 
 ---
 
+### Duskborn
+
+It is the year 2114 and humanity is on the brink of extinction. An unknown life form, called the weaver has taken over the Earth and caused the entire ecosystems to collapse. Due to the lack of hope, the current period is known as "the Dusk". As one of the children born during this period, others call you a Duskborn. As a child with no perspective of living a long life, you decided to train and perfect your skills so you can someday destroy the weaver and save humankind.
+
+The origin of this catastrophe seems to lie in the Abyss, an ancient city built in a massive crater. You will explore the city and find loot which you can use to upgrade your gear. Fight your way through and get stronger until you defeated your enemy or become one of the countless victims of the abyss.
+
+This game was developed as a project for the game internship at HdM. It is supposed to be an experience as close to practice as possible. We were 18 people developing the game split into different departments. I got the position of head of engineering and lead a small team of 3 people. Besides managing I was mainly responsible for the implementation of the player character and upgrade system but I also tried to help my team as much as possible. It was a great experience to work with so many different people on one project. Our teamwork made it possible to create such a nice result.
+
+
+|<img src=""  width="300">|<img src=""  width="300">|<img src=""  width="300">
+|---|---|---|
+
+---
+
 ### Curse of Immortality 
 
 Curse of Immortality is a rogue-like dungeon crawler in which the player must face various challenges in an arena. It was one of my first team projects and an awesome experience. We had a great time working together and discussing coding problems. I was responsible for creating the logic of the enemies and helped out with the traps in the arena. I learned much about State Machines and C++ development in Unreal. It was also the first project I was really proud of. Most of the code I wrote you can find [here](https://github.com/Vel0X/CurseOfImmortality/tree/main/Source/CurseOfImmortality/AI). Feel free to also check out the rest of the source code and play our game.
@@ -36,4 +50,4 @@ For the gameplay, I was inspired by Stardew Valley's minigame that you play on o
 ---
 
 ### State Machine Generator
-For the lecture Engine Programming, we got the task to create an addon for Godot. I love using state machines in my code but there's always plenty of boiler code to write which is annoying. So I created an addon which generates code for GDScript that you can completely modify. You can see this addon in action in the source code of [Crunch Time](https://github.com/MangiameliFabio/Crunch_Time) or look up the [repository](https://github.com/MangiameliFabio/State_Machine_Generator) to find out how to install and use it.
+For the lecture Game Engine Programming, we got the task to create an addon for Godot. I love using state machines in my code but there's always plenty of boiler code to write which is annoying. So I created an addon which generates code for GDScript that you can completely modify. You can see this addon in action in the source code of [Crunch Time](https://github.com/MangiameliFabio/Crunch_Time) or look up the [repository](https://github.com/MangiameliFabio/State_Machine_Generator) to find out how to install and use it.
