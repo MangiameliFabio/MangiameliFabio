@@ -14,8 +14,10 @@ The origin of this catastrophe seems to lie in the Abyss, an ancient city built 
 This game was developed as a project for the game internship at HdM. It is supposed to be an experience as close to practice as possible. We were 18 people developing the game split into different departments. I got the position of head of engineering and lead a small team of 3 people. Besides managing I was mainly responsible for the implementation of the player character and upgrade system but I also tried to help my team as much as possible. It was a great experience to work with so many different people on one project. Our teamwork made it possible to create such a nice result.
 
 
-|<img src="https://github.com/MangiameliFabio/MangiameliFabio/assets/92296151/ebe9356e-ec6f-40ea-be02-753bed54fde6"  width="300">|<img src="https://github.com/MangiameliFabio/MangiameliFabio/assets/92296151/a06f0949-6b99-49d6-b913-876279c2d460"  width="300">|<img src="https://github.com/MangiameliFabio/MangiameliFabio/assets/92296151/7cb9dec3-3c9b-4407-a8ca-19e1301016c4"  width="300">|<img src="https://github.com/MangiameliFabio/MangiameliFabio/assets/92296151/586caa04-bf45-4304-8ec0-461d03368c25"  width="300">
-|---|---|---|---|
+|<img src="https://github.com/MangiameliFabio/MangiameliFabio/assets/92296151/ebe9356e-ec6f-40ea-be02-753bed54fde6"  width="500">|<img src="https://github.com/MangiameliFabio/MangiameliFabio/assets/92296151/a06f0949-6b99-49d6-b913-876279c2d460"  width="500">|
+|---|---|
+|<img src="https://github.com/MangiameliFabio/MangiameliFabio/assets/92296151/7cb9dec3-3c9b-4407-a8ca-19e1301016c4"  width="500">|<img src="https://github.com/MangiameliFabio/MangiameliFabio/assets/92296151/586caa04-bf45-4304-8ec0-461d03368c25"  width="500">
+
 
 ---
 
@@ -23,8 +25,9 @@ This game was developed as a project for the game internship at HdM. It is suppo
 
 Curse of Immortality is a rogue-like dungeon crawler in which the player must face various challenges in an arena. It was one of my first team projects and an awesome experience. We had a great time working together and discussing coding problems. I was responsible for creating the logic of the enemies and helped out with the traps in the arena. I learned much about State Machines and C++ development in Unreal. It was also the first project I was really proud of. Most of the code I wrote you can find [here](https://github.com/Vel0X/CurseOfImmortality/tree/main/Source/CurseOfImmortality/AI). Feel free to also check out the rest of the source code and play our game.
 
-|<img src="https://user-images.githubusercontent.com/92296151/229345703-4d0df592-a692-49ea-b17f-b6eb78680405.png"  width="300">|<img src="https://user-images.githubusercontent.com/92296151/229345707-2f5b3a50-d35d-49c7-b642-3e5d39a6ffab.png"  width="300">|<img src="https://user-images.githubusercontent.com/92296151/229346938-0675cea1-288f-40cc-835c-7a00776dfe1b.png"  width="300">
-|---|---|---|
+|<img src="https://user-images.githubusercontent.com/92296151/229345703-4d0df592-a692-49ea-b17f-b6eb78680405.png"  width="500">|<img src="https://user-images.githubusercontent.com/92296151/229345707-2f5b3a50-d35d-49c7-b642-3e5d39a6ffab.png"  width="500">|
+|---|---|
+|<img src="https://user-images.githubusercontent.com/92296151/229346938-0675cea1-288f-40cc-835c-7a00776dfe1b.png"  width="500">|
 
 ---
 
@@ -34,9 +37,9 @@ Crunch Time was created during the BeansJam 2022. The theme for this game jam wa
 The game is about a company late at night and you are the intern which needs to supply the workers with caffeinated drinks. Sometimes even the Sandman shows up and tries to put your coworkers to sleep. So you need to slap him out of existence. Check out our game on [itch.io](https://zwietabak.itch.io/crunch-time).
 My main focus was programming the player, the sandman and the logic for the elevator. You can find the source code [here](https://github.com/MangiameliFabio/Crunch_Time).
 
-|<img src="https://user-images.githubusercontent.com/92296151/229347667-b5bb6211-3296-40b1-a727-9a0710b97a4d.png"  width="300">|<img src="https://user-images.githubusercontent.com/92296151/229347778-0f0a5bb0-774c-4808-899a-75dc51fdf73b.png"  width="300">|<img src="https://user-images.githubusercontent.com/92296151/229347629-418eb8f5-c90a-4093-8187-5345a3c66849.png"  width="300">
-|---|---|---|
-
+|<img src="https://user-images.githubusercontent.com/92296151/229347667-b5bb6211-3296-40b1-a727-9a0710b97a4d.png"  width="300">|<img src="https://user-images.githubusercontent.com/92296151/229347778-0f0a5bb0-774c-4808-899a-75dc51fdf73b.png"  width="500">|
+|---|---|
+|<img src="https://user-images.githubusercontent.com/92296151/229347629-418eb8f5-c90a-4093-8187-5345a3c66849.png"  width="500">|
 ---
 
 ### Top Down Shooter in custom Engine
