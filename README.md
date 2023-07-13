@@ -25,7 +25,7 @@ This game was developed as a project for the game internship at HdM. It is suppo
 
 Curse of Immortality is a rogue-like dungeon crawler in which the player must face various challenges in an arena. It was one of my first team projects and an awesome experience. We had a great time working together and discussing coding problems. I was responsible for creating the logic of the enemies and helped out with the traps in the arena. I learned much about State Machines and C++ development in Unreal. It was also the first project I was really proud of. Most of the code I wrote you can find [here](https://github.com/Vel0X/CurseOfImmortality/tree/main/Source/CurseOfImmortality/AI). Feel free to also check out the rest of the source code and play our game.
 
-|<img src="https://user-images.githubusercontent.com/92296151/229345703-4d0df592-a692-49ea-b17f-b6eb78680405.png"  width="500">|<img src="https://user-images.githubusercontent.com/92296151/229345707-2f5b3a50-d35d-49c7-b642-3e5d39a6ffab.png"  width="500">|
+|<img src="https://github.com/MangiameliFabio/MangiameliFabio/assets/92296151/b5bfa58d-f5e6-40b8-b420-02ffd857194f" width="500">|<img src="https://user-images.githubusercontent.com/92296151/229345707-2f5b3a50-d35d-49c7-b642-3e5d39a6ffab.png"  width="500">|
 |---|---|
 |<img src="https://user-images.githubusercontent.com/92296151/229346938-0675cea1-288f-40cc-835c-7a00776dfe1b.png"  width="500">|
 
