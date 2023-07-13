@@ -14,8 +14,8 @@ The origin of this catastrophe seems to lie in the Abyss, an ancient city built 
 This game was developed as a project for the game internship at HdM. It is supposed to be an experience as close to practice as possible. We were 18 people developing the game split into different departments. I got the position of head of engineering and lead a small team of 3 people. Besides managing I was mainly responsible for the implementation of the player character and upgrade system but I also tried to help my team as much as possible. It was a great experience to work with so many different people on one project. Our teamwork made it possible to create such a nice result.
 
 
-|<img src=""  width="300">|<img src=""  width="300">|<img src=""  width="300">
-|---|---|---|
+|<img src="https://github.com/MangiameliFabio/MangiameliFabio/assets/92296151/ebe9356e-ec6f-40ea-be02-753bed54fde6"  width="300">|<img src="https://github.com/MangiameliFabio/MangiameliFabio/assets/92296151/a06f0949-6b99-49d6-b913-876279c2d460"  width="300">|<img src="https://github.com/MangiameliFabio/MangiameliFabio/assets/92296151/7cb9dec3-3c9b-4407-a8ca-19e1301016c4"  width="300">|<img src="https://github.com/MangiameliFabio/MangiameliFabio/assets/92296151/586caa04-bf45-4304-8ec0-461d03368c25"  width="300">
+|---|---|---|---|
 
 ---
 
