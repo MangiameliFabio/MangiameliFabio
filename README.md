@@ -7,11 +7,25 @@ Have a look at the game projects I did during my studies.
 
 ### Duskborn
 
-It is the year 2114 and humanity is on the brink of extinction. An unknown life form, called the weaver has taken over Earth and caused the entire ecosystems to collapse. Due to the lack of hope, the current period is known as "the Dusk". As one of the children born during this period, others call you a Duskborn. With no perspective of living a long life, you decided to train and perfect your skills so you can someday destroy the weaver and save humankind.
+The game is a third-person shooter rouge-like and was created in Unreal Engine 5.1. With a variety of movement options, you explore the world and upgrade yourself with items until you mangae to beat the final boss.
 
-The origin of this catastrophe seems to lie in the Abyss, an ancient city built in a massive crater. You explore the city and find loot which you can use to upgrade your gear. Fight your way through and get stronger until you defeated your enemy or become one of the countless victims of the abyss.
+This game was developed as a project for the game "internship" at HdM. It is supposed to be an experience as close to practice as possible. We were 18 people developing the game split into different departments. 
 
-This game was developed as a project for the game "internship" at HdM. It is supposed to be an experience as close to practice as possible. We were 18 people developing the game split into different departments. I was head of engineering and led a small team of 3 people. Besides managing, I was responsible for the implementation of the player character and upgrade system but I also supported my team whenever needed. It was an amazing experience to work with so many different people on one project. Our teamwork made it possible to create such a nice result.
+#### Managing
+
+I was head of engineering and led a small team of 3 people. I organized weekly meetings, created tasks and distributed them to the team. I was also responsible for setting up the project and managing a perforce repo. To make sure everyone is on the same page I created tutorials on how to install Perforce and Unreal. All the time I was in close communication with the game design and graphics head and together we formed this project.
+
+#### Coding
+
+Besides managing, I was responsible for the implementation of the player character. The grappling hook mechanic was by far the hardest challenge. We needed a grappling hook which can pull the player towards the grappled direction but also give the option of just hanging on the rope and swinging through the level. I used a state machine which can run two states at the same time. One state is the current movement state and the other one is the current combat state. In the future, the player should have the opportunity to change the prostheses of his character. Although the feature cant be seen in the game right now I implemented a system to make sure this is possible. 
+
+Another task was the implementation of the upgrade system. I created a scheme which showed how the architecture should look and presented it to my colleague. Together we started the implementation. In the game, an item consists of two upgrade parts. One is the effect and the other one is the trigger. For example, an effect could be "spawn missile" and the trigger is "on kill" so the item will spawn a missile every time the player kills an enemy. To archive this I used the observer pattern for the triggers. For the effects, we wanted to have the possibility to create them in blueprints because later a person from game design did the actual implementation of the effects. To create an Item we used a factory.
+
+#### Side Tasks
+- implementation of the destructor enemy (big turret)
+- enemy health bars
+- damage numbers
+- missile effect
 
 
 |<img src="https://github.com/MangiameliFabio/MangiameliFabio/assets/92296151/ebe9356e-ec6f-40ea-be02-753bed54fde6"  width="500">|<img src="https://github.com/MangiameliFabio/MangiameliFabio/assets/92296151/a06f0949-6b99-49d6-b913-876279c2d460"  width="500">|
@@ -23,7 +37,13 @@ This game was developed as a project for the game "internship" at HdM. It is sup
 
 ### Curse of Immortality 
 
-Curse of Immortality is a rogue-like dungeon crawler in which the player must face various challenges in an arena. It was one of my first team projects and an awesome experience. We had a great time working together and discussing coding problems. I was responsible for creating the logic of the enemies and helped out with the traps in the arena. I learned much about State Machines and C++ development in Unreal. It was also the first project I was really proud of. Most of the code I wrote you can find [here](https://github.com/Vel0X/CurseOfImmortality/tree/main/Source/CurseOfImmortality/AI). Feel free to also check out the rest of the source code and play our game.
+Curse of Immortality is a rogue-like dungeon crawler in which the player must face various challenges in an arena. We used Unreal Engine 5.1. 
+
+I was responsible for creating the logic of the enemies. This was my first contact with the state machine pattern and I used it for all enemies. In the game are 6 different enemies and all have different behaviour. Especially the final boss which can be seen in the second picture was a nice challenge because of the variety of different attacks.
+
+I also helped out with the traps in the arena and integrated them to our damage system.
+
+I learned much about C++ and development in Unreal. Most of the code I wrote you can find [here](https://github.com/Vel0X/CurseOfImmortality/tree/main/Source/CurseOfImmortality/AI). Feel free to also check out the rest of the source code and play our game.
 
 |<img src="https://github.com/MangiameliFabio/MangiameliFabio/assets/92296151/b5bfa58d-f5e6-40b8-b420-02ffd857194f" width="500">|<img src="https://user-images.githubusercontent.com/92296151/229345707-2f5b3a50-d35d-49c7-b642-3e5d39a6ffab.png"  width="500">|
 |---|---|
