@@ -26,12 +26,6 @@ Besides managing, I was responsible for the implementation of the player charact
 
 Another task was the implementation of the upgrade system. I created a scheme which showed how the architecture should look and presented it to my colleague. Together we started the implementation. In the game, an item consists of two upgrade parts. One is the effect and the other one is the trigger. For example, an effect could be "spawn missile" and the trigger is "on kill" so the item will spawn a missile every time the player kills an enemy. To archive this I used the observer pattern for the triggers. For the effects, we wanted to have the possibility to create them in blueprints because later a person from game design did the actual implementation of the effects. To create an Item we used a factory.
 
-#### Side Tasks
-- implementation of the destructor enemy (big turret)
-- enemy health bars
-- damage numbers
-- missile effect
-
 ---
 
 ### Curse of Immortality 
