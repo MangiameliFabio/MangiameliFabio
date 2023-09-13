@@ -7,7 +7,7 @@ Have a look at the game projects I did during my studies.
 
 ### Duskborn
 
-Duskborn is a third-person shooter rouge-like. With a variety of movement options, you explore the world and upgrade yourself with items until you are powerful enough to beat the final boss. If you want to play the game you can download it for free on [Steam](https://store.steampowered.com/app/2474900/Duskborn/).
+Duskborn is a third-person shooter rouge-like. With a variety of movement options, you explore the world and upgrade yourself with items until you are powerful enough to beat the final boss. If you want to play the game you can download it for free on [Steam](https://store.steampowered.com/app/2474900/Duskborn/). Because the game was developed with Perforce I created a [Repository](https://github.com/MangiameliFabio/Duskborn) to showcase my code.
 
 This game was developed as a project for the game "internship" at HdM. It is supposed to be an experience as close to practice as possible. 18 people were developing the game split into different departments. My position was the Head of Engineering.
 
@@ -15,7 +15,7 @@ This game was developed as a project for the game "internship" at HdM. It is sup
 |---|---|
 |<img src="https://github.com/MangiameliFabio/MangiameliFabio/assets/92296151/7cb9dec3-3c9b-4407-a8ca-19e1301016c4"  width="500">|<img src="https://github.com/MangiameliFabio/MangiameliFabio/assets/92296151/586caa04-bf45-4304-8ec0-461d03368c25"  width="500">
 
-#### Technologies Used
+#### Technologies I used
 - Unreal Engine 5.1
 - C++ and Blueprints
 - Perforce
@@ -23,7 +23,6 @@ This game was developed as a project for the game "internship" at HdM. It is sup
 - Jira
 
 #### Managing Tasks
-
 - Leading a team of three people
 - Organizing and conducting weekly meetings
 - Creating tasks in Jira and distributing them to the team
@@ -32,14 +31,13 @@ This game was developed as a project for the game "internship" at HdM. It is sup
 - Collaborating with the other department heads to define milestone goals and discuss game features
 
 #### Coding Task
-
 - Implementation of player character logic
   -  State Machine for movement and combat behaviour
   -  Grappling hook mechanic
   -  Modular system for replaceable arm prostheses with different combat abilities
   -  Animation system for character body and each of the arm prostheses
 - Developing an upgrade system
-  - Craft items out of two parts
+  - Crafting system
   - System to trigger item effects when the condition is fulfilled. Implementation was realized with the observer pattern.
   - Framework for the creation of item effects. The actual implementation of the specific effect could then be outsourced to the game design department.
 - Implementation of the destructor enemy
@@ -93,13 +91,13 @@ You can find the source code [here](https://github.com/MangiameliFabio/Crunch_Ti
 - Git
 
 #### Tasks:
--  Implementation of character logic
-  -  Player Character
+- Implementation of character logic
+  -  Player character
   -  Sandman
 -  Elevator mechanic
 -  Sound implementation
 -  UI implementation
-
+   
 #### State Machine Generator
 For the character logic used a Godot plugin, which I created during the lecture Game Engine Programming to generate boilerplate code for state machines. The plugin will use template files to create Godot scripts. For more information have a look into the [repository](https://github.com/MangiameliFabio/State_Machine_Generator).
 
