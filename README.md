@@ -15,12 +15,26 @@ This game was developed as a project for the game "internship" at HdM. It is sup
 |---|---|
 |<img src="https://github.com/MangiameliFabio/MangiameliFabio/assets/92296151/7cb9dec3-3c9b-4407-a8ca-19e1301016c4"  width="500">|<img src="https://github.com/MangiameliFabio/MangiameliFabio/assets/92296151/586caa04-bf45-4304-8ec0-461d03368c25"  width="500">
 
+#### Technologies Used
+- Unreal Engine 5.1
+- Perforce
+- Confluence
+- Jira
 
-#### Managing
+#### Managing Tasks
 
 I was head of engineering and led a small team of 3 people. I organized weekly meetings, created tasks and distributed them to the team. I was also responsible for setting up the project and managing a perforce repo. To make sure everyone is on the same page I created tutorials on how to install Perforce and Unreal. Especially important was the collaboration with the other heads. Together we defined new milestone goals and discussed new features for the game.
 
-#### Coding
+
+#### Coding Task
+
+- Implementation of player character logic
+  -  State Machine for movement and combat behavior
+  -  Grappling hook mechanic
+  -  Modular system for replacable arm prosthesises with different combat abilities
+- Item system
+  - Items cons
+
 
 Besides managing, I was responsible for the implementation of the player character. The grappling hook mechanic was by far the hardest challenge. We needed a grappling hook which can pull the player towards the grappled point but also give the option of just hanging on the rope and swinging through the level. <br> 
 To implement the behavior of the player character I used a state machine which can run two states at the same time. One state is the current movement state and the other one is the current combat state. In the future, the player should have the opportunity to change the prostheses of his character. Although the feature cant be seen in the game right now I implemented a system to make sure this is possible. 
@@ -50,9 +64,22 @@ Crunch Time was created during the BeansJam 2022. The theme for this game jam wa
 
 The game is about a company late at night. You are the intern who needs to supply the workers with caffeinated drinks. Sometimes even the Sandman shows up and tries to put your coworkers to sleep. So you need to slap him out of existence. Check out our game on [itch.io](https://zwietabak.itch.io/crunch-time).
 
-For this project, I used Godot 3 and Git. My main role was the implementation of the player character and the Sandman character. I used a state machine for both and with the [plugin](https://github.com/MangiameliFabio/State_Machine_Generator) I created for Godot, I could fastly generate the boilerplate code which was perfect because of the short time. I was also responsible for the elevator mechanic and the sound implementation. Also, I helped with the UI.
-
 You can find the source code [here](https://github.com/MangiameliFabio/Crunch_Time).
+
+#### Technologies I used:
+- Godot 3
+- Git
+
+#### Tasks:
+-  Implementation of character logic
+  -  Player Character
+  -  Sandman
+-  Elevator mechanic
+-  Sound implementation
+-  UI implementation
+
+#### State Machine Generator
+For the character logic used a Godot plugin, which I created during the lecture Game Engine Programming to generate boiler plate code for state machines. The plugin will use template files to create Godot scripts. For more information have a look into the [repository](https://github.com/MangiameliFabio/State_Machine_Generator).
 
 |<img src="https://user-images.githubusercontent.com/92296151/229347667-b5bb6211-3296-40b1-a727-9a0710b97a4d.png"  width="300">|<img src="https://user-images.githubusercontent.com/92296151/229347778-0f0a5bb0-774c-4808-899a-75dc51fdf73b.png"  width="500">|
 |---|---|
@@ -71,10 +98,3 @@ For the gameplay, I was inspired by Stardew Valley's minigame that you play on o
 
 |<img src="https://user-images.githubusercontent.com/92296151/229348689-a0505f8f-a92a-4eff-9ed8-78ad2e8f3138.png"  width="300">|
 |---|
-
----
-
-### State Machine Generator
-For the lecture Game Engine Programming, we got the task to create an addon for Godot. I love using state machines in my code but there's always plenty of boiler code to write which is annoying. So I created an addon which generates code for GDScript that you can completely modify. The plugin will use template files in which I wrote down the code for a state machine. Out of these template files, I create strings and replace some placeholders with actual class and object names. With this string, a .gd file is generated which then can be used and modified as script in Godot.
-
-You can see this addon in action in the source code of [Crunch Time](https://github.com/MangiameliFabio/Crunch_Time) or look up the [repository](https://github.com/MangiameliFabio/State_Machine_Generator) to find out how to install and use it.
