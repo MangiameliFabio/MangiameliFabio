@@ -9,7 +9,7 @@ Have a look at the game projects I did during my studies.
 
 Duskborn is a third-person shooter rouge-like. With a variety of movement options, you explore the world and upgrade yourself with items until you are powerful enough to beat the final boss. If you want to play the game you can download it for free on [Steam](https://store.steampowered.com/app/2474900/Duskborn/).
 
-This game was developed as a project for the game development lecture at HdM. It is supposed to be an experience as close to practice as possible. 18 people were developing the game split into different departments. My position was the Head of Engineering. Because the game was developed with Perforce I created a [Repository](https://github.com/MangiameliFabio/Duskborn) to showcase my code.
+This game is the result of the game development lecture at HdM. It is supposed to be an experience as close to practice as possible. 18 people were developing the game split into different departments. My position was the Head of Engineering. Because the game was developed with Perforce I created a [Repository](https://github.com/MangiameliFabio/Duskborn) to showcase my code.
 
 |<img src="https://github.com/MangiameliFabio/MangiameliFabio/assets/92296151/ebe9356e-ec6f-40ea-be02-753bed54fde6"  width="500">|<img src="https://github.com/MangiameliFabio/MangiameliFabio/assets/92296151/a06f0949-6b99-49d6-b913-876279c2d460"  width="500">|
 |---|---|
@@ -30,7 +30,7 @@ This game was developed as a project for the game development lecture at HdM. It
 - Creating tutorials on how to setup Unreal Engine and Perforce
 - Collaborating with the other department heads to define milestone goals and discuss game features
 
-#### 🧑‍💻 Coding Task
+#### 🧑‍💻 Coding Tasks
 - Implementation of player character logic
   -  State Machine for movement and combat behaviour
   -  Grappling hook mechanic
