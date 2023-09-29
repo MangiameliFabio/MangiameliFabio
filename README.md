@@ -95,7 +95,7 @@ You can find the source code [here](https://github.com/MangiameliFabio/Crunch_Ti
 -  UI implementation
    
 #### State Machine Generator
-For the character logic I used a Godot plugin, which I created during the lecture Game Engine Programming to generate boilerplate code for state machines. The plugin will use template files to create Godot scripts. For more information have a look into the [repository](https://github.com/MangiameliFabio/State_Machine_Generator).
+For the character logic, I used a Godot plugin, which I created during the lecture Game Engine Programming to generate boilerplate code for state machines. The plugin will use template files to create Godot scripts. For more information have a look into the [repository](https://github.com/MangiameliFabio/State_Machine_Generator).
 
 ---
 
