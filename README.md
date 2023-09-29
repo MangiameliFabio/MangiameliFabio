@@ -79,7 +79,7 @@ You can find the source code [here](https://github.com/MangiameliFabio/Crunch_Ti
 
 |<img src="https://user-images.githubusercontent.com/92296151/229347667-b5bb6211-3296-40b1-a727-9a0710b97a4d.png"  width="300">|<img src="https://user-images.githubusercontent.com/92296151/229347778-0f0a5bb0-774c-4808-899a-75dc51fdf73b.png"  width="500">|
 |---|---|
-|<img src="https://user-images.githubusercontent.com/92296151/229347629-418eb8f5-c90a-4093-8187-5345a3c66849.png"  width="500">|
+|<img src="https://user-images.githubusercontent.com/92296151/229347629-418eb8f5-c90a-4093-8187-5345a3c66849.png"  width="500">|<img src="/gif/CrunchTime_zoomed_in.gif"  width="500">|
 
 #### ⚙️ Technologies I used:
 - Godot 3
