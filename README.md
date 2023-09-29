@@ -30,7 +30,7 @@ This game is the result of the game development lecture at HdM. It is supposed t
 - Creating tutorials on how to setup Unreal Engine and Perforce
 - Collaborating with the other department heads to define milestone goals and discuss game features
 
-#### 🧑‍💻 Coding Tasks
+#### 💻 Coding Tasks
 - Implementation of player character logic
   -  State Machine for movement and combat behaviour
   -  Grappling hook mechanic
@@ -60,7 +60,7 @@ Curse of Immortality is a rogue-like dungeon crawler in which the player must fa
 - Git
 - Confluence
 
-#### 🧑‍💻 Tasks:
+#### 💻 Tasks:
 - Implementing enemy characters
   - Logic for six different enemy types each with different abilities and characteristics
   - Animation system for all enemies
@@ -77,16 +77,16 @@ The game is about a company late at night. You are the intern who needs to suppl
 
 You can find the source code [here](https://github.com/MangiameliFabio/Crunch_Time).
 
-|<img src="https://user-images.githubusercontent.com/92296151/229347667-b5bb6211-3296-40b1-a727-9a0710b97a4d.png"  width="300">|<img src="https://user-images.githubusercontent.com/92296151/229347778-0f0a5bb0-774c-4808-899a-75dc51fdf73b.png"  width="500">|
+|<img src="/img/Crunch_Time_Menu.PNG"  width="500">|<img src="/gif/Crunch_Time.gif"  width="500">|
 |---|---|
-|<img src="https://user-images.githubusercontent.com/92296151/229347629-418eb8f5-c90a-4093-8187-5345a3c66849.png"  width="500">|<img src="/gif/CrunchTime_zoomed_in.gif"  width="500">|
+|<img src="/img/Crunch_Time_In_Game.PNG"  width="500">|<img src="/gif/Crunch_Time_zoomed_in.gif"  width="500">|
 
 #### ⚙️ Technologies I used:
 - Godot 3
 - GDScript
 - Git
 
-#### 🧑‍💻 Tasks:
+#### 💻 Tasks:
 - Implementation of character logic
   -  Player character
   -  Sandman
@@ -102,6 +102,9 @@ For the character logic I used a Godot plugin, which I created during the lectur
 ### Enchanted Defense
 I wanted to learn more about the internals of a game engine and try out programming patterns. That's why I created this little game in a custom engine. I followed the [LazzyFoo SDL2 tutorial](https://lazyfoo.net/tutorials/SDL/index.php) to learn more about rendering with SDL2 and how to implement sounds. With the knowledge of the "Game Engine Programming" lecture from university and the book [Game Programming Patterns](https://www.amazon.de/Game-Programming-Patterns-Robert-Nystrom/dp/0990582906/ref=sr_1_4?__mk_de_DE=ÅMÅŽÕÑ&crid=3V71KG1U14PUB&keywords=Gameplay+programming+patterns&qid=1680433547&sprefix=gameplay+programming+patterns%2Caps%2C88&sr=8-4) I started coding. 
 
+|<img src="/img/Enchanted_Defense_Menu.png"  width="300">|<img src="/gif/Enchated_Defense.gif"  width="300">|
+|---|---|
+
 #### ⚙️ Technologies I used:
 - C++
 - SDL 2
@@ -112,6 +115,3 @@ The global state of the engine is handled with a singleton. To update all my gam
 For the Game, I use the command pattern in the input management to capsule input handling from the player character. With the observer pattern, I notify the game objects about stuff like the player dying or all inputs handled. To create enemies I used the prototype pattern. 
 
 You can check out the project [here](https://github.com/MangiameliFabio/Top_Down_Shooter_in_custom_Engine).
-
-|<img src="https://user-images.githubusercontent.com/92296151/229348689-a0505f8f-a92a-4eff-9ed8-78ad2e8f3138.png"  width="300">|
-|---|
