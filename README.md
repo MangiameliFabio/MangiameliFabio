@@ -79,7 +79,7 @@ You can find the source code [here](https://github.com/MangiameliFabio/Crunch_Ti
 
 |<img src="/img/Crunch_Time_Menu.PNG"  width="500">|<img src="/gif/Crunch_Time.gif"  width="500">|
 |---|---|
-|<img src="/img/Crunch_Time_In_Game.PNG"  width="500">|<img src="/gif/Crunch_Time_zoomed_in.gif"  width="500">|
+|<img src="/img/Crunch_Time_In_Game.PNG"  width="500">|<img src="/gif/Crunch_Time_2.gif"  width="500">|
 
 #### ⚙️ Technologies I used:
 - Godot 3
