@@ -11,9 +11,9 @@ Duskborn is a third-person shooter rouge-like. With a variety of movement option
 
 This game is the result of the game development lecture at HdM. It is supposed to be an experience as close to practice as possible. 18 people were developing the game split into different departments. My position was the Head of Engineering. Because the game was developed with Perforce I created a [Repository](https://github.com/MangiameliFabio/Duskborn) to showcase my code.
 
-|<img src="/img/Duskborn_Bottom_Abyss.png"  width="478">|<img src="/gif/Duskborn_Grappling.gif"  width="478">|
+|<img src="/img/Duskborn_Bottom_Abyss.png"  width="387">|<img src="/gif/Duskborn_Grappling.gif"  width="387">|
 |---|---|
-|<img src="/img/Duskborn_Boss.jpg"  width="478">|<img src="/gif/Duskborn_WalkerFight.gif"  width="478">
+|<img src="/img/Duskborn_Boss.jpg"  width="387">|<img src="/gif/Duskborn_WalkerFight.gif"  width="387">
 
 #### ⚙ Technologies I used
 - Unreal Engine 5.1
@@ -50,9 +50,9 @@ This game is the result of the game development lecture at HdM. It is supposed t
 
 Curse of Immortality is a rogue-like dungeon crawler in which the player must face various challenges in an arena.  Most of the code I wrote you can find [here](https://github.com/Vel0X/CurseOfImmortality/tree/main/Source/CurseOfImmortality/AI). Feel free to also check out the rest of the source code and play the game.
 
-|<img src="/img/Curse_of_Immortality_Combat.png" width="478">|<img src="/gif/Curse_of_Immortality_Fight.gif"  width="478">|
+|<img src="/img/Curse_of_Immortality_Combat.png" width="387">|<img src="/gif/Curse_of_Immortality_Fight.gif"  width="387">|
 |---|---|
-|<img src="/img/Curse_of_Immortality.png"  width="478">|<img src="/gif/Curse_of_Immortality_Boss.gif"  width="478">|
+|<img src="/img/Curse_of_Immortality.png"  width="387">|<img src="/gif/Curse_of_Immortality_Boss.gif"  width="387">|
 
 #### ⚙ Technologies I used:
 - Unreal Engine 5.0
@@ -77,9 +77,9 @@ The game is about a company late at night. You are the intern who needs to suppl
 
 You can find the source code [here](https://github.com/MangiameliFabio/Crunch_Time).
 
-|<img src="/img/Crunch_Time_Menu.PNG"  width="478">|<img src="/gif/Crunch_Time.gif"  width="478">|
+|<img src="/img/Crunch_Time_Menu.PNG"  width="387">|<img src="/gif/Crunch_Time.gif"  width="387">|
 |---|---|
-|<img src="/img/Crunch_Time_In_Game.PNG"  width="478">|<img src="/gif/Crunch_Time_Zoomed_In.gif"  width="478">|
+|<img src="/img/Crunch_Time_In_Game.PNG"  width="387">|<img src="/gif/Crunch_Time_Zoomed_In.gif"  width="387">|
 
 #### ⚙️ Technologies I used:
 - Godot 3
