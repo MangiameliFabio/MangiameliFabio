@@ -11,9 +11,9 @@ Duskborn is a third-person shooter rouge-like. With a variety of movement option
 
 This game is the result of the game development lecture at HdM. It is supposed to be an experience as close to practice as possible. 18 people were developing the game split into different departments. My position was the Head of Engineering. Because the game was developed with Perforce I created a [Repository](https://github.com/MangiameliFabio/Duskborn) to showcase my code.
 
-|<img src="https://github.com/MangiameliFabio/MangiameliFabio/assets/92296151/ebe9356e-ec6f-40ea-be02-753bed54fde6"  width="478">|<img src="https://github.com/MangiameliFabio/MangiameliFabio/assets/92296151/a06f0949-6b99-49d6-b913-876279c2d460"  width="478">|
+|<img src="/img/Duskborn_Bottom_Abyss.png"  width="478">|<img src="/gif/Duskborn_Grappling.gif"  width="478">|
 |---|---|
-|<img src="https://github.com/MangiameliFabio/MangiameliFabio/assets/92296151/7cb9dec3-3c9b-4407-a8ca-19e1301016c4"  width="478">|<img src="https://github.com/MangiameliFabio/MangiameliFabio/assets/92296151/586caa04-bf45-4304-8ec0-461d03368c25"  width="478">
+|<img src="/img/Duskborn_Boss.jpg"  width="478">|<img src="/gif/Duskborn_WalkerFight.gif"  width="478">
 
 #### ⚙ Technologies I used
 - Unreal Engine 5.1
@@ -50,9 +50,9 @@ This game is the result of the game development lecture at HdM. It is supposed t
 
 Curse of Immortality is a rogue-like dungeon crawler in which the player must face various challenges in an arena.  Most of the code I wrote you can find [here](https://github.com/Vel0X/CurseOfImmortality/tree/main/Source/CurseOfImmortality/AI). Feel free to also check out the rest of the source code and play the game.
 
-|<img src="https://github.com/MangiameliFabio/MangiameliFabio/assets/92296151/b5bfa58d-f5e6-40b8-b420-02ffd857194f" width="478">|<img src="https://user-images.githubusercontent.com/92296151/229345707-2f5b3a50-d35d-49c7-b642-3e5d39a6ffab.png"  width="478">|
+|<img src="/img/Curse_of_Immortality_Combat.png" width="478">|<img src="/gif/Curse_of_Immortality_Fight.gif"  width="478">|
 |---|---|
-|<img src="https://user-images.githubusercontent.com/92296151/229346938-0675cea1-288f-40cc-835c-7a00776dfe1b.png"  width="478">|
+|<img src="/img/Curse_of_Immortality.png"  width="478">|<img src="/gif/Curse_of_Immortality_Boss.gif"  width="478">|
 
 #### ⚙ Technologies I used:
 - Unreal Engine 5.0
