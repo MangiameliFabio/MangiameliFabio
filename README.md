@@ -7,7 +7,7 @@ Have a look at the game projects I did during my studies.
 
 ### Duskborn
 
-Duskborn is a third-person shooter rouge-like. With a variety of movement options, you explore the world and upgrade yourself with items until you are powerful enough to beat the final boss. If you want to play the game you can download it for free on [Steam](https://store.steampowered.com/app/2474900/Duskborn/).
+Duskborn is a third-person shooter roguelite. With a variety of movement options, you explore the world and upgrade yourself with items until you are powerful enough to beat the final boss. If you want to play the game you can download it for free on [Steam](https://store.steampowered.com/app/2474900/Duskborn/).
 
 This game is the result of the game development lecture at HdM. It is supposed to be an experience as close to practice as possible. 18 people were developing the game split into different departments. My position was the Head of Engineering. Because the game was developed with Perforce I created a [Repository](https://github.com/MangiameliFabio/Duskborn) to showcase my code.
 
@@ -48,7 +48,7 @@ This game is the result of the game development lecture at HdM. It is supposed t
 
 ### Curse of Immortality 
 
-Curse of Immortality is a rogue-like dungeon crawler in which the player must face various challenges in an arena.  Most of the code I wrote you can find [here](https://github.com/Vel0X/CurseOfImmortality/tree/main/Source/CurseOfImmortality/AI). Feel free to also check out the rest of the source code and play the game.
+Curse of Immortality is a roguelite dungeon crawler in which the player must face various challenges in an arena.  Most of the code I wrote you can find [here](https://github.com/Vel0X/CurseOfImmortality/tree/main/Source/CurseOfImmortality/AI). Feel free to also check out the rest of the source code and play the game.
 
 |<img src="/img/Curse_of_Immortality_Combat.png" width="387">|<img src="/img/Curse_of_Immortality.png" width="387">|
 |---|---|
