@@ -120,7 +120,7 @@ For the character logic, I used a Godot plugin, which I created during the lectu
 ---
 
 ### Scary Dark Dungeon
-Scary Dark Dungeon was created during the [miniBeansjam 9](https://itch.io/jam/minibeansjam9). The theme for this game jam was "We are not alone" and we had 48 hours to develop it. Our game was rated place 15 out of 26 submissions!
+Scary Dark Dungeon was created during the [miniBeansjam 9](https://itch.io/jam/minibeansjam9). The theme for this game jam was "We are not alone" and we had 48 hours to develop it.
 
 In Scary Dark Dungeon, you play John, a clueless farmer boy who fell through a hole into a dungeon. You now have to help him find his way out. 
 
@@ -139,7 +139,7 @@ Feel free to [download](https://fabiomangiameli.itch.io/scary-dark-dungeon) and 
 #### 💻 Tasks:
 -  Level and story design
 -  Implementation of the dialogues
-  - using the plugin [dialoge nodes](https://godotengine.org/asset-library/asset/2214) as a framework
-  - Created the dialogue sounds with an [animaliese generator](https://github.com/Acedio/animalese.js)
+  - Using the plugin [dialoge nodes](https://godotengine.org/asset-library/asset/2214) as a framework
+  - creating the dialogue sounds with an [animaliese generator](https://github.com/Acedio/animalese.js)
 -  Sound implementation
 -  Enemy character logic with my [state machine generator plugin](https://github.com/MangiameliFabio/State_Machine_Generator)
