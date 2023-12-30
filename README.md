@@ -70,12 +70,32 @@ Curse of Immortality is a roguelite dungeon crawler in which the player must fac
 
 ---
 
+### Enchanted Defense
+I wanted to learn more about the internals of a game engine and try out programming patterns. That's why I created this little game in a custom engine. I followed the [LazzyFoo SDL2 tutorial](https://lazyfoo.net/tutorials/SDL/index.php) to learn more about rendering with SDL2 and how to implement sounds. With the knowledge of the "Game Engine Programming" lecture from university and the book [Game Programming Patterns](https://www.amazon.de/Game-Programming-Patterns-Robert-Nystrom/dp/0990582906/ref=sr_1_4?__mk_de_DE=ÅMÅŽÕÑ&crid=3V71KG1U14PUB&keywords=Gameplay+programming+patterns&qid=1680433547&sprefix=gameplay+programming+patterns%2Caps%2C88&sr=8-4) I started coding. 
+
+|<img src="/gif/Enchated_Defense.gif"  width="300">|<img src="/img/Enchanted_Defense_Menu.png"  width="300">|
+|---|---|
+
+#### ⚙️ Technologies I used:
+- C++
+- SDL 2
+- Piskel
+- Git
+
+The global state of the engine is handled with a singleton. To update all my game objects I created an update loop in which all game objects can click in. For animations, I use sprite sheets. With the possibility of SDL2 to just render a specific part of an image I implemented a method to iterate through the different frames. A state machine is used to switch between different animations. I also created tools for measuring the performance of the engine internals and drawing debug shapes. <br>
+For the Game, I use the command pattern in the input management to capsule input handling from the player character. With the observer pattern, I notify the game objects about stuff like the player dying or all inputs handled. To create enemies I used the prototype pattern. 
+
+You can check out the project [here](https://github.com/MangiameliFabio/Top_Down_Shooter_in_custom_Engine).
+
+---
+## Game Jam Projects
+
 ### Crunch Time
 Crunch Time was created during the [BeansJam 2022](https://itch.io/jam/beansjam-22). The theme for this game jam was "We have to stay awake" and we had 48 hours to develop it. Our game was rated place 7 out of 65 submissions!
 
-The game is about a company late at night. You are the intern who needs to supply the workers with caffeinated drinks. Sometimes even the Sandman shows up and tries to put your coworkers to sleep. So you need to slap him out of existence. You can play Crunch Time in the browser on [itch.io](https://zwietabak.itch.io/crunch-time) or download the latest [release](https://github.com/MangiameliFabio/Crunch_Time/releases/tag/Build).
+The game is about a company late at night. You are the intern who needs to supply the workers with caffeinated drinks. Sometimes even the Sandman shows up and tries to put your coworkers to sleep. So you need to slap him out of existence. 
 
-You can find the source code in the [repository](https://github.com/MangiameliFabio/Crunch_Time).
+You can play Crunch Time in the browser on [itch.io](https://zwietabak.itch.io/crunch-time) or download the latest [release](https://github.com/MangiameliFabio/Crunch_Time/releases/tag/Build). You can find the source code in the [repository](https://github.com/MangiameliFabio/Crunch_Time).
 
 |<img src="/img/Crunch_Time_Menu.PNG"  width="387">|<img src="/img/Crunch_Time_In_Game.PNG" width="387">|
 |---|---|
@@ -99,19 +119,27 @@ For the character logic, I used a Godot plugin, which I created during the lectu
 
 ---
 
-### Enchanted Defense
-I wanted to learn more about the internals of a game engine and try out programming patterns. That's why I created this little game in a custom engine. I followed the [LazzyFoo SDL2 tutorial](https://lazyfoo.net/tutorials/SDL/index.php) to learn more about rendering with SDL2 and how to implement sounds. With the knowledge of the "Game Engine Programming" lecture from university and the book [Game Programming Patterns](https://www.amazon.de/Game-Programming-Patterns-Robert-Nystrom/dp/0990582906/ref=sr_1_4?__mk_de_DE=ÅMÅŽÕÑ&crid=3V71KG1U14PUB&keywords=Gameplay+programming+patterns&qid=1680433547&sprefix=gameplay+programming+patterns%2Caps%2C88&sr=8-4) I started coding. 
+### Scary Dark Dungeon
+Scary Dark Dungeon was created during the [miniBeansjam 9](https://itch.io/jam/minibeansjam9). The theme for this game jam was "We are not alone" and we had 48 hours to develop it. Our game was rated place 15 out of 26 submissions!
 
-|<img src="/gif/Enchated_Defense.gif"  width="300">|<img src="/img/Enchanted_Defense_Menu.png"  width="300">|
+In Scary Dark Dungeon you play John, a clueless farmer boy which fell through a hole into a dungeon. You know have tohelp him finding his way out. 
+
+Feel free to [download](https://fabiomangiameli.itch.io/scary-dark-dungeon) and play Scary Dark Dungeon. You can find the source code in the [repository](https://github.com/zwietabak/beansjam23).
+
+|<img src="/img/Crunch_Time_Menu.PNG"  width="387">|<img src="/img/Crunch_Time_In_Game.PNG" width="387">|
 |---|---|
+|<img src="/gif/Crunch_Time.gif" width="387">|<img src="/gif/Crunch_Time_Zoomed_In.gif" width="387">|
 
 #### ⚙️ Technologies I used:
-- C++
-- SDL 2
-- Piskel
+- Godot 4
+- GDScript
 - Git
+- Audacity
 
-The global state of the engine is handled with a singleton. To update all my game objects I created an update loop in which all game objects can click in. For animations, I use sprite sheets. With the possibility of SDL2 to just render a specific part of an image I implemented a method to iterate through the different frames. A state machine is used to switch between different animations. I also created tools for measuring the performance of the engine internals and drawing debug shapes. <br>
-For the Game, I use the command pattern in the input management to capsule input handling from the player character. With the observer pattern, I notify the game objects about stuff like the player dying or all inputs handled. To create enemies I used the prototype pattern. 
-
-You can check out the project [here](https://github.com/MangiameliFabio/Top_Down_Shooter_in_custom_Engine).
+#### 💻 Tasks:
+-  Level and Story Design
+-  Implementation of the Dialoges
+  - using the plugin [dialoge nodes](https://godotengine.org/asset-library/asset/2214) as framework
+  - Created the dialoge sounds with an [animaliese generator](https://github.com/Acedio/animalese.js)
+-  Sound implementation
+-  Enemy character logic with my [state machine generator plugin](https://github.com/MangiameliFabio/State_Machine_Generator)
