@@ -126,9 +126,9 @@ In Scary Dark Dungeon you play John, a clueless farmer boy which fell through a 
 
 Feel free to [download](https://fabiomangiameli.itch.io/scary-dark-dungeon) and play Scary Dark Dungeon. You can find the source code in the [repository](https://github.com/zwietabak/beansjam23).
 
-|<img src="/img/Crunch_Time_Menu.PNG"  width="387">|<img src="/img/Crunch_Time_In_Game.PNG" width="387">|
+|<img src="/img/SSD_Screenshot_1.png"  width="387">|<img src="/img/SSD_Screenshot_2.png" width="387">|
 |---|---|
-|<img src="/gif/Crunch_Time.gif" width="387">|<img src="/gif/Crunch_Time_Zoomed_In.gif" width="387">|
+|<img src="/gif/SDD_scene_1.gif" width="387">|<img src="/gif/SDD_scene_2.gif" width="387">|
 
 #### ⚙️ Technologies I used:
 - Godot 4
