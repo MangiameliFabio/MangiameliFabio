@@ -9,7 +9,7 @@ Have a look at the game projects I did during my studies.
 
 Duskborn is a third-person shooter roguelite. With a variety of movement options, you explore the world and upgrade yourself with items until you are powerful enough to beat the final boss. If you want to play the game you can download it for free on [Steam](https://store.steampowered.com/app/2474900/Duskborn/).
 
-This game is the result of the game development lecture at HdM. It is supposed to be an experience as close to practice as possible. 18 people were developing the game split into different departments. My position was the Head of Engineering. Because the game was developed with Perforce I created a [repository](https://github.com/MangiameliFabio/Duskborn) to showcase my code. The development of Duskborn continued after the semester, but I was unable to take part due to my bachelor's thesis. You can [download](https://github.com/MangiameliFabio/Duskborn/releases/tag/Build) the lateset release I was part of.
+This game is the result of the game development lecture at HdM. It is supposed to be an experience as close to practice as possible. 18 people were developing the game split into different departments. My position was the Head of Engineering. Because the game was developed with Perforce I created a [repository](https://github.com/MangiameliFabio/Duskborn) to showcase my code. The development of Duskborn continued after the semester, but I was unable to take part due to my bachelor's thesis. You can [download](https://github.com/MangiameliFabio/Duskborn/releases/tag/Build) the latest release I was part of.
 
 |<img src="/img/Duskborn_Boss.jpg"  width="387">|<img src="/img/Duskborn_Bottom_Abyss.png" width="387">
 |---|---|
@@ -32,7 +32,7 @@ This game is the result of the game development lecture at HdM. It is supposed t
 
 #### 💻 Coding Tasks
 - Implementation of player character logic
-  -  State Machine for movement and combat behaviour
+  -  State Machine for movement and combat behavior
   -  Grappling hook mechanic
   -  Modular system for replaceable arm prostheses with different combat abilities
   -  Animation system for character body and each of the arm prostheses
@@ -41,7 +41,7 @@ This game is the result of the game development lecture at HdM. It is supposed t
   - System to trigger item effects when the condition is fulfilled. Implementation was realized with the observer pattern.
   - Framework for the creation of item effects. The actual implementation of the specific effect could then be outsourced to the game design department.
 - Implementation of the destructor enemy
-- Created a system to distribute collectable loot through the level
+- Created a system to distribute collectible loot through the level
 - Enemy spawn system
 
 ---
@@ -64,7 +64,7 @@ Curse of Immortality is a roguelite dungeon crawler in which the player must fac
 - Implementing enemy characters
   - Logic for six different enemy types each with different abilities and characteristics
   - Animation system for all enemies
-  - General behaviour handled with state machine pattern
+  - General behavior handled with state machine pattern
   - Implemented a heat map into our custom pathfinding
 - Integrated arena traps into the damage system
 
@@ -122,7 +122,7 @@ For the character logic, I used a Godot plugin, which I created during the lectu
 ### Scary Dark Dungeon
 Scary Dark Dungeon was created during the [miniBeansjam 9](https://itch.io/jam/minibeansjam9). The theme for this game jam was "We are not alone" and we had 48 hours to develop it. Our game was rated place 15 out of 26 submissions!
 
-In Scary Dark Dungeon you play John, a clueless farmer boy which fell through a hole into a dungeon. You know have tohelp him finding his way out. 
+In Scary Dark Dungeon, you play John, a clueless farmer boy who fell through a hole into a dungeon. You now have to help him find his way out. 
 
 Feel free to [download](https://fabiomangiameli.itch.io/scary-dark-dungeon) and play Scary Dark Dungeon. You can find the source code in the [repository](https://github.com/zwietabak/beansjam23).
 
@@ -137,9 +137,9 @@ Feel free to [download](https://fabiomangiameli.itch.io/scary-dark-dungeon) and 
 - Audacity
 
 #### 💻 Tasks:
--  Level and Story Design
--  Implementation of the Dialoges
-  - using the plugin [dialoge nodes](https://godotengine.org/asset-library/asset/2214) as framework
-  - Created the dialoge sounds with an [animaliese generator](https://github.com/Acedio/animalese.js)
+-  Level and story design
+-  Implementation of the dialogues
+  - using the plugin [dialoge nodes](https://godotengine.org/asset-library/asset/2214) as a framework
+  - Created the dialogue sounds with an [animaliese generator](https://github.com/Acedio/animalese.js)
 -  Sound implementation
 -  Enemy character logic with my [state machine generator plugin](https://github.com/MangiameliFabio/State_Machine_Generator)
