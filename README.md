@@ -9,7 +9,7 @@ Have a look at the game projects I did during my studies.
 
 Duskborn is a third-person shooter roguelite. With a variety of movement options, you explore the world and upgrade yourself with items until you are powerful enough to beat the final boss. If you want to play the game you can download it for free on [Steam](https://store.steampowered.com/app/2474900/Duskborn/).
 
-This game is the result of the game development lecture at HdM. It is supposed to be an experience as close to practice as possible. 18 people were developing the game split into different departments. My position was the Head of Engineering. Because the game was developed with Perforce I created a [Repository](https://github.com/MangiameliFabio/Duskborn) to showcase my code. The development of Duskborn continued after the semester, but I was unable to take part due to my bachelor's thesis. You can find the lateset release I was part of [here](https://github.com/MangiameliFabio/Duskborn/releases/tag/Build).
+This game is the result of the game development lecture at HdM. It is supposed to be an experience as close to practice as possible. 18 people were developing the game split into different departments. My position was the Head of Engineering. Because the game was developed with Perforce I created a [repository](https://github.com/MangiameliFabio/Duskborn) to showcase my code. The development of Duskborn continued after the semester, but I was unable to take part due to my bachelor's thesis. You can [download](https://github.com/MangiameliFabio/Duskborn/releases/tag/Build) the lateset release I was part of.
 
 |<img src="/img/Duskborn_Boss.jpg"  width="387">|<img src="/img/Duskborn_Bottom_Abyss.png" width="387">
 |---|---|
@@ -48,7 +48,7 @@ This game is the result of the game development lecture at HdM. It is supposed t
 
 ### Curse of Immortality 
 
-Curse of Immortality is a roguelite dungeon crawler in which the player must face various challenges in an arena.  Most of the code I wrote you can find [here](https://github.com/Vel0X/CurseOfImmortality/tree/main/Source/CurseOfImmortality/AI). Feel free to also check out the rest of the source code and play the game.
+Curse of Immortality is a roguelite dungeon crawler in which the player must face various challenges in an arena. The code I wrote you can find in the [repository](https://github.com/Vel0X/CurseOfImmortality/tree/main/Source/CurseOfImmortality/AI). Feel free to also check out the rest of the source code and play the game. You can download the latest release [here](https://github.com/Vel0X/CurseOfImmortality/releases/tag/Build).
 
 |<img src="/img/Curse_of_Immortality_Combat.png" width="387">|<img src="/img/Curse_of_Immortality.png" width="387">|
 |---|---|
@@ -73,9 +73,9 @@ Curse of Immortality is a roguelite dungeon crawler in which the player must fac
 ### Crunch Time
 Crunch Time was created during the [BeansJam 2022](https://itch.io/jam/beansjam-22). The theme for this game jam was "We have to stay awake" and we had 48 hours to develop it. Our game was rated place 7 out of 65 submissions!
 
-The game is about a company late at night. You are the intern who needs to supply the workers with caffeinated drinks. Sometimes even the Sandman shows up and tries to put your coworkers to sleep. So you need to slap him out of existence. You can play Crunch Time in the browser on [itch.io](https://zwietabak.itch.io/crunch-time) or download the latest build [here](https://github.com/MangiameliFabio/Crunch_Time/releases/tag/Build).
+The game is about a company late at night. You are the intern who needs to supply the workers with caffeinated drinks. Sometimes even the Sandman shows up and tries to put your coworkers to sleep. So you need to slap him out of existence. You can play Crunch Time in the browser on [itch.io](https://zwietabak.itch.io/crunch-time) or download the latest [release](https://github.com/MangiameliFabio/Crunch_Time/releases/tag/Build).
 
-You can find the source code [here](https://github.com/MangiameliFabio/Crunch_Time).
+You can find the source code in the [repository](https://github.com/MangiameliFabio/Crunch_Time).
 
 |<img src="/img/Crunch_Time_Menu.PNG"  width="387">|<img src="/img/Crunch_Time_In_Game.PNG" width="387">|
 |---|---|
