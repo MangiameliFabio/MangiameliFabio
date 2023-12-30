@@ -73,7 +73,7 @@ Curse of Immortality is a roguelite dungeon crawler in which the player must fac
 ### Crunch Time
 Crunch Time was created during the [BeansJam 2022](https://itch.io/jam/beansjam-22). The theme for this game jam was "We have to stay awake" and we had 48 hours to develop it. Our game was rated place 7 out of 65 submissions!
 
-The game is about a company late at night. You are the intern who needs to supply the workers with caffeinated drinks. Sometimes even the Sandman shows up and tries to put your coworkers to sleep. So you need to slap him out of existence. Check out our game on [itch.io](https://zwietabak.itch.io/crunch-time).
+The game is about a company late at night. You are the intern who needs to supply the workers with caffeinated drinks. Sometimes even the Sandman shows up and tries to put your coworkers to sleep. So you need to slap him out of existence. You can play Crunch Time in the browser on [itch.io](https://zwietabak.itch.io/crunch-time) or download the latest build [here](https://github.com/MangiameliFabio/Crunch_Time/releases/tag/Build).
 
 You can find the source code [here](https://github.com/MangiameliFabio/Crunch_Time).
 
