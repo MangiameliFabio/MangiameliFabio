@@ -48,7 +48,7 @@ This game is the result of the game development lecture at HdM. It is supposed t
 
 ### Curse of Immortality 
 
-Curse of Immortality is a roguelite dungeon crawler in which the player must face various challenges in an arena. The code I wrote you can find in the [repository](https://github.com/Vel0X/CurseOfImmortality/tree/main/Source/CurseOfImmortality/AI). Feel free to also check out the rest of the source code and play the game. You can download the latest release [here](https://github.com/Vel0X/CurseOfImmortality/releases/tag/Build).
+Curse of Immortality is a roguelite dungeon crawler in which the player must face various challenges in an arena. The code I wrote you can find in the [repository](https://github.com/Vel0X/CurseOfImmortality/tree/main/Source/CurseOfImmortality/AI). Feel free to also check out the rest of the source code and play the game. You can download the latest build [here](https://github.com/Vel0X/CurseOfImmortality/releases/tag/Build).
 
 |<img src="/img/Curse_of_Immortality_Combat.png" width="387">|<img src="/img/Curse_of_Immortality.png" width="387">|
 |---|---|
@@ -85,7 +85,7 @@ I wanted to learn more about the internals of a game engine and try out programm
 The global state of the engine is handled with a singleton. To update all my game objects I created an update loop in which all game objects can click in. For animations, I use sprite sheets. With the possibility of SDL2 to just render a specific part of an image I implemented a method to iterate through the different frames. A state machine is used to switch between different animations. I also created tools for measuring the performance of the engine internals and drawing debug shapes. <br>
 For the Game, I use the command pattern in the input management to capsule input handling from the player character. With the observer pattern, I notify the game objects about stuff like the player dying or all inputs handled. To create enemies I used the prototype pattern. 
 
-You can check out the project [here](https://github.com/MangiameliFabio/Top_Down_Shooter_in_custom_Engine).
+You can check out the project [here](https://github.com/MangiameliFabio/Top_Down_Shooter_in_custom_Engine) or download the latest [build](https://github.com/MangiameliFabio/Enchanted-Defense/releases/tag/Build).
 
 ---
 ## Game Jam Projects
