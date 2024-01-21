@@ -13,7 +13,7 @@ This game is the result of the game development lecture at HdM. It is supposed t
 
 📂 Because the game was developed with Perforce I created a [Repository](https://github.com/MangiameliFabio/Duskborn) to showcase my code <br>
 🎮 Play the latest [Release](https://github.com/MangiameliFabio/Duskborn/releases/tag/Build) I was part of <br>
-🎬 Watch the [Video playthrough](https://drive.google.com/file/d/10kXytsdueNGs8n9KKJV5QznltHu23VWF/view?usp=drive_link) <br>
+🎬 Watch the [Video playthrough](https://drive.google.com/file/d/1FfdXbqWHlRajfGuDcEFj04kqFZ-m8qsq/view?usp=drive_link) <br>
 
 |<img src="/img/Duskborn_Boss.jpg"  width="387">|<img src="/img/Duskborn_Bottom_Abyss.png" width="387">
 |---|---|
