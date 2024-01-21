@@ -138,7 +138,7 @@ In Scary Dark Dungeon, you play John, a clueless farmer boy who fell through a h
 
 📂 Check out the [Source code](https://github.com/zwietabak/beansjam23) <br>
 🎮 Play the latest [Build](https://fabiomangiameli.itch.io/scary-dark-dungeon) <br>
-🎬 Watch the [Video playthrough](https://drive.google.com/file/d/13JNrv5HVfwiRFyd2-IF51zM3T1csns3B/view?usp=drive_link) <br>
+🎬 Watch the [Video playthrough](https://drive.google.com/file/d/1U4cUO2n9wXgaAV6KUcL_lidTCazxMjWr/view?usp=drive_link) <br>
 
 |<img src="/img/SSD_Screenshot_2.png"  width="387">|<img src="/img/SSD_Screenshot_4.png" width="387">|
 |---|---|
