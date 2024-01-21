@@ -9,7 +9,11 @@ Have a look at the game projects I did during my studies.
 
 Duskborn is a third-person shooter roguelite. With a variety of movement options, you explore the world and upgrade yourself with items until you are powerful enough to beat the final boss. If you want to play the game you can download it for free on [Steam](https://store.steampowered.com/app/2474900/Duskborn/).
 
-This game is the result of the game development lecture at HdM. It is supposed to be an experience as close to practice as possible. 18 people were developing the game split into different departments. My position was the Head of Engineering. Because the game was developed with Perforce I created a [repository](https://github.com/MangiameliFabio/Duskborn) to showcase my code. The development of Duskborn continued after the semester, but I was unable to take part due to my bachelor's thesis. You can [download](https://github.com/MangiameliFabio/Duskborn/releases/tag/Build) the latest release I was part of.
+This game is the result of the game development lecture at HdM. It is supposed to be an experience as close to practice as possible. 18 people were developing the game split into different departments. My position was the Head of Engineering. The development of Duskborn continued after the semester, but I was unable to take part due to my bachelor's thesis. 
+
+📂 Because the game was developed with Perforce I created a [Repository](https://github.com/MangiameliFabio/Duskborn) to showcase my code <br>
+🎮 Play the latest [Release](https://github.com/MangiameliFabio/Duskborn/releases/tag/Build) I was part of <br>
+🎬 Watch the [Video playthrough](https://drive.google.com/file/d/10kXytsdueNGs8n9KKJV5QznltHu23VWF/view?usp=drive_link) <br>
 
 |<img src="/img/Duskborn_Boss.jpg"  width="387">|<img src="/img/Duskborn_Bottom_Abyss.png" width="387">
 |---|---|
@@ -48,7 +52,11 @@ This game is the result of the game development lecture at HdM. It is supposed t
 
 ### Curse of Immortality 
 
-Curse of Immortality is a roguelite dungeon crawler in which the player must face various challenges in an arena. The code I wrote you can find in the [repository](https://github.com/Vel0X/CurseOfImmortality/tree/main/Source/CurseOfImmortality/AI). Feel free to also check out the rest of the source code and play the game. You can download the latest build [here](https://github.com/Vel0X/CurseOfImmortality/releases/tag/Build).
+Curse of Immortality is a roguelite dungeon crawler in which the player must face various challenges in an arena.
+
+📂 Check out the [Source code](https://github.com/Vel0X/CurseOfImmortality/tree/main/Source/CurseOfImmortality/AI) <br>
+🎮 Play the latest [Build](https://github.com/Vel0X/CurseOfImmortality/releases/tag/Build) <br>
+🎬 Watch the [Video playthrough](https://drive.google.com/file/d/10kXytsdueNGs8n9KKJV5QznltHu23VWF/view?usp=drive_link) <br>
 
 |<img src="/img/Curse_of_Immortality_Combat.png" width="387">|<img src="/img/Curse_of_Immortality.png" width="387">|
 |---|---|
@@ -71,7 +79,11 @@ Curse of Immortality is a roguelite dungeon crawler in which the player must fac
 ---
 
 ### Enchanted Defense
-I wanted to learn more about the internals of a game engine and try out programming patterns. That's why I created this little game in a custom engine. I followed the [LazzyFoo SDL2 tutorial](https://lazyfoo.net/tutorials/SDL/index.php) to learn more about rendering with SDL2 and how to implement sounds. With the knowledge of the "Game Engine Programming" lecture from university and the book [Game Programming Patterns](https://www.amazon.de/Game-Programming-Patterns-Robert-Nystrom/dp/0990582906/ref=sr_1_4?__mk_de_DE=ÅMÅŽÕÑ&crid=3V71KG1U14PUB&keywords=Gameplay+programming+patterns&qid=1680433547&sprefix=gameplay+programming+patterns%2Caps%2C88&sr=8-4) I started coding. 
+I wanted to learn more about the internals of a game engine and try out programming patterns. That's why I created this little game in a custom engine. I followed the [LazzyFoo SDL2 tutorial](https://lazyfoo.net/tutorials/SDL/index.php) to learn more about rendering with SDL2 and how to implement sounds. With the knowledge of the "Game Engine Programming" lecture from university and the book [Game Programming Patterns](https://www.amazon.de/Game-Programming-Patterns-Robert-Nystrom/dp/0990582906/ref=sr_1_4?__mk_de_DE=ÅMÅŽÕÑ&crid=3V71KG1U14PUB&keywords=Gameplay+programming+patterns&qid=1680433547&sprefix=gameplay+programming+patterns%2Caps%2C88&sr=8-4) I started coding.
+
+📂 Check out the [Source code](https://github.com/MangiameliFabio/Enchanted-Defense) <br>
+🎮 Play the latest [Build](https://github.com/MangiameliFabio/Enchanted-Defense/releases/tag/Build) <br>
+🎬 Watch the [Video playthrough](https://drive.google.com/file/d/1DcSH0mLjfLbaEGVx8fJEFSZSX3N4aQHp/view?usp=drive_link) <br>
 
 |<img src="/gif/Enchated_Defense.gif"  width="300">|<img src="/img/Enchanted_Defense_Menu.png"  width="300">|
 |---|---|
@@ -83,9 +95,7 @@ I wanted to learn more about the internals of a game engine and try out programm
 - Git
 
 The global state of the engine is handled with a singleton. To update all my game objects I created an update loop in which all game objects can click in. For animations, I use sprite sheets. With the possibility of SDL2 to just render a specific part of an image I implemented a method to iterate through the different frames. A state machine is used to switch between different animations. I also created tools for measuring the performance of the engine internals and drawing debug shapes. <br>
-For the Game, I use the command pattern in the input management to capsule input handling from the player character. With the observer pattern, I notify the game objects about stuff like the player dying or all inputs handled. To create enemies I used the prototype pattern. 
-
-You can check out the project [here](https://github.com/MangiameliFabio/Top_Down_Shooter_in_custom_Engine) or download the latest [build](https://github.com/MangiameliFabio/Enchanted-Defense/releases/tag/Build).
+For the Game, I use the command pattern in the input management to capsule input handling from the player character. With the observer pattern, I notify the game objects about stuff like the player dying or all inputs handled. To create enemies I used the prototype pattern.
 
 ---
 ## Game Jam Projects
@@ -95,7 +105,9 @@ Crunch Time was created during the [BeansJam 2022](https://itch.io/jam/beansjam-
 
 The game is about a company late at night. You are the intern who needs to supply the workers with caffeinated drinks. Sometimes even the Sandman shows up and tries to put your coworkers to sleep. So you need to slap him out of existence. 
 
-You can play Crunch Time in the browser on [itch.io](https://zwietabak.itch.io/crunch-time) or download the latest [release](https://github.com/MangiameliFabio/Crunch_Time/releases/tag/Build). You can find the source code in the [repository](https://github.com/MangiameliFabio/Crunch_Time).
+📂 Check out the [Source code](https://github.com/MangiameliFabio/Crunch_Time) <br>
+🎮 Play the latest [Build](https://github.com/MangiameliFabio/Crunch_Time/releases/tag/Build) or play in the [Browser](https://zwietabak.itch.io/crunch-time) <br>
+🎬 Watch the [Video playthrough](https://drive.google.com/file/d/17bCTvuVgCx2NhOgqbx8xps5Kz3wg85nf/view?usp=drive_link) <br>
 
 |<img src="/img/Crunch_Time_Menu.PNG"  width="387">|<img src="/img/Crunch_Time_In_Game.PNG" width="387">|
 |---|---|
@@ -122,9 +134,11 @@ For the character logic, I used a Godot plugin, which I created during the lectu
 ### Scary Dark Dungeon
 Scary Dark Dungeon was created during the [miniBeansjam 9](https://itch.io/jam/minibeansjam9). The theme for this game jam was "We are not alone" and we had 48 hours to develop it.
 
-In Scary Dark Dungeon, you play John, a clueless farmer boy who fell through a hole into a dungeon. You now have to help him find his way out. 
+In Scary Dark Dungeon, you play John, a clueless farmer boy who fell through a hole into a dungeon. You now have to help him find his way out.
 
-Feel free to [download](https://fabiomangiameli.itch.io/scary-dark-dungeon) and play Scary Dark Dungeon. You can find the source code in the [repository](https://github.com/zwietabak/beansjam23).
+📂 Check out the [Source code](https://github.com/zwietabak/beansjam23) <br>
+🎮 Play the latest [Build](https://fabiomangiameli.itch.io/scary-dark-dungeon) <br>
+🎬 Watch the [Video playthrough](https://drive.google.com/file/d/13JNrv5HVfwiRFyd2-IF51zM3T1csns3B/view?usp=drive_link) <br>
 
 |<img src="/img/SSD_Screenshot_2.png"  width="387">|<img src="/img/SSD_Screenshot_4.png" width="387">|
 |---|---|
