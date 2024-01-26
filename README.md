@@ -68,7 +68,7 @@ Curse of Immortality is a roguelite dungeon crawler in which the player must fac
 - Git
 - Confluence
 
-#### 💻 Tasks:
+#### 💻 Tasks
 - Implementing enemy characters
   - Logic for six different enemy types each with different abilities and characteristics
   - Animation system for all enemies
@@ -118,7 +118,7 @@ The game is about a company late at night. You are the intern who needs to suppl
 - GDScript
 - Git
 
-#### 💻 Tasks:
+#### 💻 Tasks
 - Implementation of character logic
   -  Player character
   -  Sandman
@@ -150,7 +150,7 @@ In Scary Dark Dungeon, you play John, a clueless farmer boy who fell through a h
 - Git
 - Audacity
 
-#### 💻 Tasks:
+#### 💻 Tasks
 -  Level and story design
 -  Implementation of the dialogues
   - Using the plugin [dialoge nodes](https://godotengine.org/asset-library/asset/2214) as a framework
