@@ -3,6 +3,8 @@
 My name is Fabio Mangiameli, I currently study computer science for media at the HdM in Stuttgart. I love game development and have a passion for programming.
 Have a look at the game projects I did during my studies.
 
+Feel free to check out my [resume](https://drive.google.com/file/d/1SizebFSZdcD0t2-zH8UYJA-pzDX25AlE/view?usp=sharing).
+
 ---
 
 ### Duskborn
