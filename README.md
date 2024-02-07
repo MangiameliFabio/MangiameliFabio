@@ -15,7 +15,7 @@ This game is the result of the game development lecture at HdM. It is supposed t
 
 📂 Because the game was developed with Perforce I created a [Repository](https://github.com/MangiameliFabio/Duskborn) to showcase my code <br>
 🎮 Play the latest [Release](https://github.com/MangiameliFabio/Duskborn/releases/tag/Build) I was part of <br>
-🎬 Watch the [Video playthrough](https://drive.google.com/file/d/1FfdXbqWHlRajfGuDcEFj04kqFZ-m8qsq/view?usp=drive_link) <br>
+🎬 Watch the [Video walkthrough](https://drive.google.com/file/d/1FfdXbqWHlRajfGuDcEFj04kqFZ-m8qsq/view?usp=drive_link) <br>
 
 |<img src="/img/Duskborn_Boss.jpg"  width="387">|<img src="/img/Duskborn_Bottom_Abyss.png" width="387">
 |---|---|
@@ -58,7 +58,7 @@ Curse of Immortality is a roguelite dungeon crawler in which the player must fac
 
 📂 Check out the [Source code](https://github.com/Vel0X/CurseOfImmortality/tree/main/Source/CurseOfImmortality/AI) <br>
 🎮 Play the latest [Build](https://github.com/Vel0X/CurseOfImmortality/releases/tag/Build) <br>
-🎬 Watch the [Video playthrough](https://drive.google.com/file/d/10kXytsdueNGs8n9KKJV5QznltHu23VWF/view?usp=drive_link) <br>
+🎬 Watch the [Video walkthrough](https://drive.google.com/file/d/10kXytsdueNGs8n9KKJV5QznltHu23VWF/view?usp=drive_link) <br>
 
 |<img src="/img/Curse_of_Immortality_Combat.png" width="387">|<img src="/img/Curse_of_Immortality.png" width="387">|
 |---|---|
@@ -85,7 +85,7 @@ I wanted to learn more about the internals of a game engine and try out programm
 
 📂 Check out the [Source code](https://github.com/MangiameliFabio/Enchanted-Defense) <br>
 🎮 Play the latest [Build](https://github.com/MangiameliFabio/Enchanted-Defense/releases/tag/Build) <br>
-🎬 Watch the [Video playthrough](https://drive.google.com/file/d/1DcSH0mLjfLbaEGVx8fJEFSZSX3N4aQHp/view?usp=drive_link) <br>
+🎬 Watch the [Video walkthrough](https://drive.google.com/file/d/1DcSH0mLjfLbaEGVx8fJEFSZSX3N4aQHp/view?usp=drive_link) <br>
 
 |<img src="/gif/Enchated_Defense.gif"  width="300">|<img src="/img/Enchanted_Defense_Menu.png"  width="300">|
 |---|---|
@@ -109,7 +109,7 @@ The game is about a company late at night. You are the intern who needs to suppl
 
 📂 Check out the [Source code](https://github.com/MangiameliFabio/Crunch_Time) <br>
 🎮 Play the latest [Build](https://github.com/MangiameliFabio/Crunch_Time/releases/tag/Build) or play in the [Browser](https://zwietabak.itch.io/crunch-time) <br>
-🎬 Watch the [Video playthrough](https://drive.google.com/file/d/17bCTvuVgCx2NhOgqbx8xps5Kz3wg85nf/view?usp=drive_link) <br>
+🎬 Watch the [Video walkthrough](https://drive.google.com/file/d/17bCTvuVgCx2NhOgqbx8xps5Kz3wg85nf/view?usp=drive_link) <br>
 
 |<img src="/img/Crunch_Time_Menu.PNG"  width="387">|<img src="/img/Crunch_Time_In_Game.PNG" width="387">|
 |---|---|
@@ -140,7 +140,7 @@ In Scary Dark Dungeon, you play John, a clueless farmer boy who fell through a h
 
 📂 Check out the [Source code](https://github.com/zwietabak/beansjam23) <br>
 🎮 Play the latest [Build](https://fabiomangiameli.itch.io/scary-dark-dungeon) <br>
-🎬 Watch the [Video playthrough](https://drive.google.com/file/d/1U4cUO2n9wXgaAV6KUcL_lidTCazxMjWr/view?usp=drive_link) <br>
+🎬 Watch the [Video walkthrough](https://drive.google.com/file/d/1U4cUO2n9wXgaAV6KUcL_lidTCazxMjWr/view?usp=drive_link) <br>
 
 |<img src="/img/SSD_Screenshot_2.png"  width="387">|<img src="/img/SSD_Screenshot_4.png" width="387">|
 |---|---|
