@@ -3,7 +3,7 @@
 My name is Fabio Mangiameli, I currently study computer science for media at the HdM in Stuttgart. I love game development and have a passion for programming.
 Have a look at the projects I did during my studies.
 
-Feel free to check out my [resume](https://drive.google.com/file/d/1SizebFSZdcD0t2-zH8UYJA-pzDX25AlE/view?usp=sharing).
+Feel free to check out my [resume](https://drive.google.com/file/d/1_Em6ovbfWl9_z6pB7vfDodpsdytGMMDR/view?usp=sharing).
 
 ---
 
@@ -79,62 +79,3 @@ This game is the result of the game development lecture at HdM. It is supposed t
 - Created a system to distribute collectible loot through the level
 - Enemy spawn system
 
----
-
-## Game Jam Projects
-
-### Crunch Time
-Crunch Time was created during the [BeansJam 2022](https://itch.io/jam/beansjam-22). The theme for this game jam was "We have to stay awake" and we had 48 hours to develop it. Our game was rated place 7 out of 65 submissions!
-
-The game is about a company late at night. You are the intern who needs to supply the workers with caffeinated drinks. Sometimes even the Sandman shows up and tries to put your coworkers to sleep. So you need to slap him out of existence. 
-
-📂 Check out the [Source code](https://github.com/MangiameliFabio/Crunch_Time) <br>
-🎮 Play the latest [Build](https://github.com/MangiameliFabio/Crunch_Time/releases/tag/Build) or play in the [Browser](https://zwietabak.itch.io/crunch-time) <br>
-🎬 Watch the [Video walkthrough](https://drive.google.com/file/d/17bCTvuVgCx2NhOgqbx8xps5Kz3wg85nf/view?usp=drive_link) <br>
-
-|<img src="/img/Crunch_Time_Menu.PNG"  width="387">|<img src="/img/Crunch_Time_In_Game.PNG" width="387">|
-|---|---|
-|<img src="/gif/Crunch_Time.gif" width="387">|<img src="/gif/Crunch_Time_Zoomed_In.gif" width="387">|
-
-#### ⚙️ Technologies I used:
-- Godot 3
-- GDScript
-- Git
-
-#### 💻 Tasks
-- Implementation of character logic
-  -  Player character
-  -  Sandman
--  Elevator mechanic
--  Sound implementation
--  UI implementation
-   
-
----
-
-### Scary Dark Dungeon
-Scary Dark Dungeon was created during the [miniBeansjam 9](https://itch.io/jam/minibeansjam9). The theme for this game jam was "We are not alone" and we had 48 hours to develop it.
-
-In Scary Dark Dungeon, you play John, a clueless farmer boy who fell through a hole into a dungeon. You now have to help him find his way out.
-
-📂 Check out the [Source code](https://github.com/zwietabak/beansjam23) <br>
-🎮 Play the latest [Build](https://fabiomangiameli.itch.io/scary-dark-dungeon) <br>
-🎬 Watch the [Video walkthrough](https://drive.google.com/file/d/1U4cUO2n9wXgaAV6KUcL_lidTCazxMjWr/view?usp=drive_link) <br>
-
-|<img src="/img/SSD_Screenshot_2.png"  width="387">|<img src="/img/SSD_Screenshot_4.png" width="387">|
-|---|---|
-|<img src="/gif/SDD_scene_1.gif" width="387">|<img src="/gif/SDD_scene_2.gif" width="387">|
-
-#### ⚙️ Technologies I used:
-- Godot 4
-- GDScript
-- Git
-- Audacity
-
-#### 💻 Tasks
--  Level and story design
--  Implementation of the dialogues
-  - Using the plugin [dialoge nodes](https://godotengine.org/asset-library/asset/2214) as a framework
-  - creating the dialogue sounds with an [animaliese generator](https://github.com/Acedio/animalese.js)
--  Sound implementation
--  Enemy character logic with my [state machine generator plugin](https://github.com/MangiameliFabio/State_Machine_Generator)
