@@ -7,6 +7,32 @@ Feel free to check out my [resume](https://drive.google.com/file/d/1SizebFSZdcD0
 
 ---
 
+### Enchanted Defense
+I wanted to learn more about the internals of a game engine and try out programming patterns. That's why I created this little game in a custom engine. I followed the [LazzyFoo SDL2 tutorial](https://lazyfoo.net/tutorials/SDL/index.php) to learn more about rendering with SDL2 and how to implement sounds. With the knowledge of the "Game Engine Programming" lecture from university and the book [Game Programming Patterns](https://www.amazon.de/Game-Programming-Patterns-Robert-Nystrom/dp/0990582906/ref=sr_1_4?__mk_de_DE=ÅMÅŽÕÑ&crid=3V71KG1U14PUB&keywords=Gameplay+programming+patterns&qid=1680433547&sprefix=gameplay+programming+patterns%2Caps%2C88&sr=8-4) I started coding.
+
+📂 Check out the [Source code](https://github.com/MangiameliFabio/Enchanted-Defense) <br>
+🎮 Play the latest [Build](https://github.com/MangiameliFabio/Enchanted-Defense/releases/tag/Build) <br>
+🎬 Watch the [Video walkthrough](https://drive.google.com/file/d/1DcSH0mLjfLbaEGVx8fJEFSZSX3N4aQHp/view?usp=drive_link) <br>
+
+|<img src="/gif/Enchated_Defense.gif"  width="300">|<img src="/img/Enchanted_Defense_Menu.png"  width="300">|
+|---|---|
+
+#### ⚙️ Technologies I used:
+- C++
+- SDL 2
+- Piskel
+- Git
+
+The global state of the engine is handled with a singleton. To update all my game objects I created an update loop in which all game objects can click in. For animations, I use sprite sheets. With the possibility of SDL2 to just render a specific part of an image I implemented a method to iterate through the different frames. A state machine is used to switch between different animations. I also created tools for measuring the performance of the engine internals and drawing debug shapes. <br>
+For the Game, I use the command pattern in the input management to capsule input handling from the player character. With the observer pattern, I notify the game objects about stuff like the player dying or all inputs handled. To create enemies I used the prototype pattern.
+
+---
+
+### State Machine Generator
+For the character logic, I used a Godot plugin, which I created during the lecture Game Engine Programming to generate boilerplate code for state machines. The plugin will use template files to create Godot scripts. For more information have a look into the [repository](https://github.com/MangiameliFabio/State_Machine_Generator).
+
+---
+
 ### Duskborn
 
 Duskborn is a third-person shooter roguelite. With a variety of movement options, you explore the world and upgrade yourself with items until you are powerful enough to beat the final boss. If you want to play the game you can download it for free on [Steam](https://store.steampowered.com/app/2474900/Duskborn/).
@@ -52,54 +78,6 @@ This game is the result of the game development lecture at HdM. It is supposed t
 
 ---
 
-### Curse of Immortality 
-
-Curse of Immortality is a roguelite dungeon crawler in which the player must face various challenges in an arena.
-
-📂 Check out the [Source code](https://github.com/Vel0X/CurseOfImmortality/tree/main/Source/CurseOfImmortality/AI) <br>
-🎮 Play the latest [Build](https://github.com/Vel0X/CurseOfImmortality/releases/tag/Build) <br>
-🎬 Watch the [Video walkthrough](https://drive.google.com/file/d/10kXytsdueNGs8n9KKJV5QznltHu23VWF/view?usp=drive_link) <br>
-
-|<img src="/img/Curse_of_Immortality_Combat.png" width="387">|<img src="/img/Curse_of_Immortality.png" width="387">|
-|---|---|
-|<img src="/gif/Curse_of_Immortality_Fight.gif" width="387">|<img src="/gif/Curse_of_Immortality_Boss.gif" width="387">|
-
-#### ⚙ Technologies I used:
-- Unreal Engine 5.0
-- C++ and Blueprints
-- Git
-- Confluence
-
-#### 💻 Tasks
-- Implementing enemy characters
-  - Logic for six different enemy types each with different abilities and characteristics
-  - Animation system for all enemies
-  - General behavior handled with state machine pattern
-  - Implemented a heat map into our custom pathfinding
-- Integrated arena traps into the damage system
-
----
-
-### Enchanted Defense
-I wanted to learn more about the internals of a game engine and try out programming patterns. That's why I created this little game in a custom engine. I followed the [LazzyFoo SDL2 tutorial](https://lazyfoo.net/tutorials/SDL/index.php) to learn more about rendering with SDL2 and how to implement sounds. With the knowledge of the "Game Engine Programming" lecture from university and the book [Game Programming Patterns](https://www.amazon.de/Game-Programming-Patterns-Robert-Nystrom/dp/0990582906/ref=sr_1_4?__mk_de_DE=ÅMÅŽÕÑ&crid=3V71KG1U14PUB&keywords=Gameplay+programming+patterns&qid=1680433547&sprefix=gameplay+programming+patterns%2Caps%2C88&sr=8-4) I started coding.
-
-📂 Check out the [Source code](https://github.com/MangiameliFabio/Enchanted-Defense) <br>
-🎮 Play the latest [Build](https://github.com/MangiameliFabio/Enchanted-Defense/releases/tag/Build) <br>
-🎬 Watch the [Video walkthrough](https://drive.google.com/file/d/1DcSH0mLjfLbaEGVx8fJEFSZSX3N4aQHp/view?usp=drive_link) <br>
-
-|<img src="/gif/Enchated_Defense.gif"  width="300">|<img src="/img/Enchanted_Defense_Menu.png"  width="300">|
-|---|---|
-
-#### ⚙️ Technologies I used:
-- C++
-- SDL 2
-- Piskel
-- Git
-
-The global state of the engine is handled with a singleton. To update all my game objects I created an update loop in which all game objects can click in. For animations, I use sprite sheets. With the possibility of SDL2 to just render a specific part of an image I implemented a method to iterate through the different frames. A state machine is used to switch between different animations. I also created tools for measuring the performance of the engine internals and drawing debug shapes. <br>
-For the Game, I use the command pattern in the input management to capsule input handling from the player character. With the observer pattern, I notify the game objects about stuff like the player dying or all inputs handled. To create enemies I used the prototype pattern.
-
----
 ## Game Jam Projects
 
 ### Crunch Time
@@ -128,8 +106,6 @@ The game is about a company late at night. You are the intern who needs to suppl
 -  Sound implementation
 -  UI implementation
    
-#### State Machine Generator
-For the character logic, I used a Godot plugin, which I created during the lecture Game Engine Programming to generate boilerplate code for state machines. The plugin will use template files to create Godot scripts. For more information have a look into the [repository](https://github.com/MangiameliFabio/State_Machine_Generator).
 
 ---
 
