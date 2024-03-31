@@ -47,7 +47,9 @@ You can see this addon in action in the source code of [Crunch Time](https://git
 
 Duskborn is a third-person shooter roguelite. With a variety of movement options, you explore the world and upgrade yourself with items until you are powerful enough to beat the final boss. If you want to play the game you can download it for free on [Steam](https://store.steampowered.com/app/2474900/Duskborn/).
 
-This game is the result of the game development lecture at HdM. It is supposed to be an experience as close to practice as possible. 18 people were developing the game split into different departments. My position was the Head of Engineering. The development of Duskborn continued after the semester, but I was unable to take part due to my bachelor's thesis. For this project, an item system was created where items could be created from a trigger and an effect. I implemented and designed a tooling to make the development of the effects more accessible. This made it possible for game designers to participate in the development of the effects without needing in-depth knowledge of the code base.
+This game is the result of the game development lecture at HdM. It is supposed to be an experience as close to practice as possible. 18 people were developing the game split into different departments. My position was the Head of Engineering. The development of Duskborn continued after the semester, but I was unable to take part due to my bachelor's thesis.
+
+For this project, an item system was created where items could be created from a trigger and an effect. I implemented and designed a tooling to make the development of the effects more accessible. This made it possible for game designers to participate in the development of the effects without needing in-depth knowledge of the code base.
 
 📂 Because the game was developed with Perforce I created a [Repository](https://github.com/MangiameliFabio/Duskborn) to showcase my code <br>
 🎮 Play the latest [Release](https://github.com/MangiameliFabio/Duskborn/releases/tag/Build) I was part of <br>
