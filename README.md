@@ -1,7 +1,7 @@
 ## 👋 Hi there glad you found my Profile
 
 My name is Fabio Mangiameli, I currently study computer science for media at the HdM in Stuttgart. I love game development and have a passion for programming.
-Have a look at the game projects I did during my studies.
+Have a look at the projects I did during my studies.
 
 Feel free to check out my [resume](https://drive.google.com/file/d/1SizebFSZdcD0t2-zH8UYJA-pzDX25AlE/view?usp=sharing).
 
@@ -29,7 +29,10 @@ For the Game, I use the command pattern in the input management to capsule input
 ---
 
 ### State Machine Generator
-For the character logic, I used a Godot plugin, which I created during the lecture Game Engine Programming to generate boilerplate code for state machines. The plugin will use template files to create Godot scripts. For more information have a look into the [repository](https://github.com/MangiameliFabio/State_Machine_Generator).
+
+For the lecture Game Engine Programming, we got the task to create an addon for Godot. I love using state machines in my code but there's always plenty of boiler code to write. I created an addon which generates code for GDScript that you can completely modify. The plugin will use template files which include the code for a state machine.
+
+You can see this addon in action in the source code of [Crunch Time](https://github.com/MangiameliFabio/Crunch_Time), a game which was created during the [BeansJam 2022](https://itch.io/jam/beansjam-22). Or look up the [repository](https://github.com/MangiameliFabio/State_Machine_Generator) to find out how to install and use it.
 
 ---
 
@@ -37,7 +40,7 @@ For the character logic, I used a Godot plugin, which I created during the lectu
 
 Duskborn is a third-person shooter roguelite. With a variety of movement options, you explore the world and upgrade yourself with items until you are powerful enough to beat the final boss. If you want to play the game you can download it for free on [Steam](https://store.steampowered.com/app/2474900/Duskborn/).
 
-This game is the result of the game development lecture at HdM. It is supposed to be an experience as close to practice as possible. 18 people were developing the game split into different departments. My position was the Head of Engineering. The development of Duskborn continued after the semester, but I was unable to take part due to my bachelor's thesis. 
+This game is the result of the game development lecture at HdM. It is supposed to be an experience as close to practice as possible. 18 people were developing the game split into different departments. My position was the Head of Engineering. The development of Duskborn continued after the semester, but I was unable to take part due to my bachelor's thesis. For this project, an item system was created where items could be created from a trigger and an effect. I implemented and designed a tooling to make the development of the effects more accessible. This made it possible for game designers to participate in the development of the effects without needing in-depth knowledge of the code base.
 
 📂 Because the game was developed with Perforce I created a [Repository](https://github.com/MangiameliFabio/Duskborn) to showcase my code <br>
 🎮 Play the latest [Release](https://github.com/MangiameliFabio/Duskborn/releases/tag/Build) I was part of <br>
